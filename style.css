@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button#toggleTheme {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#toggleTheme:hover {
+  background-color: #005fa3;
+}
+
+/* Dark Mode Styles */
+body.dark {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark header {
+  background-color: #333;
+}
+
+body.dark a {
+  color: #80dfff;
+}
+
+body.dark button#toggleTheme {
+  background-color: #444;
+}
